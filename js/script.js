@@ -33,10 +33,8 @@ $(document).ready(function() {
             }
         });
     });
-});
 
-// Smooth scroll
-$(document).ready(function() {
+    // Smooth scroll
     $('a[href*="#"]').click(function(e) {
         e.preventDefault();
 

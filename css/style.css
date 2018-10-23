@@ -23,7 +23,6 @@ body {
 #about {
     height: 100vh;
     background: url('../img/bg.png') fixed;
-    position: relative;
     background-size: cover;
 }
 
