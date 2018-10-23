@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     overflow: hidden;
 }
 
@@ -78,6 +78,10 @@ body {
 #education {
     height: 100vh;
     background-color: #f2f2f2;
+}
+
+.z-in {
+    z-index: -1;
 }
 
 #skills {
