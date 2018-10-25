@@ -1,7 +1,7 @@
 // Navbar scroll
 $(document).ready(function() {
 	$(window).scroll(function() {
-        if($(document).scrollTop() > 200) {
+        if($(document).scrollTop() > 500) {
             $('#navbar').addClass('scroll');
             $('#navbar').addClass('navbar-light');
             $('#navbar').addClass('bg-white');
