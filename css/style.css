@@ -20,13 +20,20 @@ body {
     transition: linear 0.5s;
 }
 
-#about {
+.fullscreen {
     height: 100vh;
+}
+
+.bg-abu {
+    background-color: #f2f2f2;    
+}
+
+#about {
     background: url('../img/bg.png') fixed;
     background-size: cover;
 }
 
-#about .overlay {
+.overlay {
     position: relative;
     display: flex;
     align-items: center;
@@ -69,22 +76,4 @@ body {
     width: 10%;
     border:5px solid white;
     border-radius: 50%;
-}
-
-#experience {
-    height: 100vh;
-}
-
-#education {
-    height: 100vh;
-    background-color: #f2f2f2;
-}
-
-#skills {
-    height: 100vh;
-}
-
-#interests {
-    height: 100vh;
-    background-color: #f2f2f2;
 }
