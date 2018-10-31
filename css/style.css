@@ -29,7 +29,7 @@ body {
 }
 
 #about {
-    background: url('../img/bg.png') fixed;
+    background: url('../img/bg.png') center fixed;
     background-size: cover;
 }
 
@@ -76,4 +76,29 @@ body {
     width: 10%;
     border:5px solid white;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 791px) {
+    body {
+        overflow: scroll;
+    }
+
+    #about.fullscreen .overlay {
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    .fullscreen {
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 70px;
+        padding-top: 70px;
+    }
+
+    #about.fullscreen {
+        min-height: 100vh;
+        height: auto;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
 }
