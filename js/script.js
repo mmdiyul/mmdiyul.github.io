@@ -42,4 +42,9 @@ $(document).ready(function() {
             scrollTop: $($(this).attr('href')).offset().top
         }, 800, 'swing');
     });
+
+    // Carousel
+    $('.carousel').carousel({
+        interval: 1500
+    })
 });
